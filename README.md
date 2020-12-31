@@ -53,10 +53,10 @@ to locate the display < 12K won't run.
 
 Files
 -----
-PCB 		- PCB layout in Diptrace format
-Gerbers		- Gerber and drill files
-ISE			- Xilinx ISE project (verilog)
-CPLD		- Programming file for the CPLD
+ - PCB 		PCB layout in Diptrace format
+ - Gerbers	Gerber and drill files
+ - ISE		Xilinx ISE project (verilog)
+ - CPLD		Programming file for the CPLD
 
 
 How to build it
@@ -68,7 +68,7 @@ the original PCB layout file in Diptrace format. (Diptrace is commercial softwar
 but they do a 30 day trial copy if you want to play around with the design)
 
 The components necessary are:
-
+<code>
 REF					Component								Part no.
 C1, C2, C3			150pF 1206 size ceramic capacitor		399-8157-1-ND (Digikey)
 C4, C5				22uF 1206 size tantalum capacitor		478-3865-1-ND (Digikey)
@@ -79,6 +79,7 @@ JTAG, SW1, DBG		0.1" pin headers, right-angle			547-3223 (RS Components)
 6502				2x Low profile 40-way turned pin socket 197-2726 (RS Components)
 ElkMB				2x 20 way round pin headers (see below)	BBL-120-T-E (Toby Electronics)
 XC9500XL			Xilinx XC9536XL 44-pin CPLD				122-1385-ND (Digikey)
+</code>
 
 The OSTC has been designed to be fairly easy to build if you have some surface mount
 soldering experience. A few points to note, however:
