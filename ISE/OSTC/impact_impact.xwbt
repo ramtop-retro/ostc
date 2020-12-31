@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=Z:\git\ostc\ISE\OSTC\impact.xsl
+OUTFILE=Z:\git\ostc\ISE\OSTC\impact.xsl
+FAMILY=None
+PART=None
+WORKINGDIR=Z:\git\ostc\ISE\OSTC
+LICENSE=iMPACT
+USER_INFO=iMPACT
